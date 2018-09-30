@@ -1,0 +1,48 @@
+.main{
+    width: 500px;
+}
+.main{
+    display: inline;
+   
+    margin: auto 0%;
+}
+.item ul li{
+    display: inline;
+    
+    border-style:ridge;
+    border-width: thick;
+    border-color: darkcyan;
+    padding: 2px;
+    margin: 3px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.highlight{
+    color: blue;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color: rgb(130, 206, 17);
+}
+.item{
+    float: right;
+}
+.title{
+    text-align: center;
+    
+}
+
+@media screen and(max-width:499px){
+.main{
+    width: 100%;
+}
+.item{
+    
+}
+
+}
